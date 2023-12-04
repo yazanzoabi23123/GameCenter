@@ -1,0 +1,18 @@
+﻿<Window x:Class="CarGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="gameCanvas">
+            <Label FontSize="20" Name="txtScore" Foreground="Black" Content="Score: 0" />
+
+            <Image x:Name="playerCarImage" HorizontalAlignment="Left" Height="112" Source="car.png" VerticalAlignment="Top" Width="90" Canvas.Left="80" Canvas.Top="18"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>

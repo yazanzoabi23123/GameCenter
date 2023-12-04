@@ -1,0 +1,65 @@
+[
+  {
+    "homeTeam": "מכבי פתח תקווה",
+    "awayTeam": "מכבי בני ריינה",
+    "id": 1,
+    "homeScore": 1,
+    "awayScore": 3
+  },
+  {
+    "homeTeam": "הפועל חיפה",
+    "awayTeam": "בית\"ר ירושלים",
+    "id": 2,
+    "homeScore": 1,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "הפועל תל אביב",
+    "awayTeam": "סקציה נס ציונה",
+    "id": 3,
+    "homeScore": 3,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "בני סכנין",
+    "awayTeam": "הפועל באר שבע",
+    "id": 4,
+    "homeScore": 1,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "מכבי חיפה",
+    "awayTeam": "הפועל חדרה",
+    "id": 5,
+    "homeScore": 2,
+    "awayScore": 2
+  },
+  {
+    "homeTeam": "הפועל חיפה",
+    "awayTeam": "מכבי תל אביב",
+    "id": 6,
+    "homeScore": 3,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "הפועל ירושלים",
+    "awayTeam": "מ.ס אשדוד",
+    "id": 7,
+    "homeScore": 2,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "בני יהודה",
+    "awayTeam": "הפועל כפר סבא",
+    "id": 8,
+    "homeScore": 0,
+    "awayScore": 1
+  },
+  {
+    "homeTeam": "עירוני קרית שמונה",
+    "awayTeam": "מכבי נתניה",
+    "id": 9,
+    "homeScore": 4,
+    "awayScore": 3
+  }
+]

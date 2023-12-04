@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\CarGame.png" />
+    <None Remove="Images\Currency Converter.webp" />
+    <None Remove="Images\Currency-Converter.png" />
+    <None Remove="Images\pacman-icon.webp" />
+    <None Remove="Images\PacMan.jpg" />
+    <None Remove="Images\square1.jpeg" />
+    <None Remove="Images\square2.png" />
+    <None Remove="Images\tic tac toe.png" />
+    <None Remove="Images\To Do List.png" />
+    <None Remove="Images\user-management-vector-icon.jpg" />
+    <None Remove="Projects\CarGame\Bomb.png" />
+    <None Remove="Projects\CarGame\Car Driving.mp4" />
+    <None Remove="Projects\CarGame\car.png" />
+    <None Remove="Projects\PacMan\Images\orange.jpg" />
+    <None Remove="Projects\PacMan\Images\pacman.jpg" />
+    <None Remove="Projects\PacMan\Images\pink.jpg" />
+    <None Remove="Projects\PacMan\Images\red.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Projects\CarGame\Car Driving.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\CarGame.png" />
+    <Resource Include="Projects\CarGame\Bomb.png" />
+    <Resource Include="Projects\CarGame\car.png" />
+    <Resource Include="Projects\PacMan\Images\pink.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Currency-Converter.png" />
+    <Resource Include="Images\PacMan.jpg" />
+    <Resource Include="Images\square1.jpeg" />
+    <Resource Include="Images\square2.png" />
+    <Resource Include="Images\tic tac toe.png" />
+    <Resource Include="Images\To Do List.png" />
+    <Resource Include="Images\user-management-vector-icon.jpg" />
+    <Resource Include="Projects\PacMan\Images\orange.jpg" />
+    <Resource Include="Projects\PacMan\Images\pacman.jpg" />
+    <Resource Include="Projects\PacMan\Images\red.jpg" />
+  </ItemGroup>
+
+</Project>
